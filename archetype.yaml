@@ -1,0 +1,14 @@
+---
+description: ".NET Redis Cache — StackExchange.Redis cache module for ASP.NET Core services"
+summary: >
+  Generates a Resources/Cache.cs with CacheExtensions using StackExchange.Redis
+  IConnectionMultiplexer. Consumed as a library by .NET service archetypes.
+authors: ["Jimmie Fulton <jimmie@ybor.ai>"]
+tags: ["library", "dotnet", "cache", "redis", "stackexchange"]
+
+requires:
+  archetect: "3.0.0"
+
+templating:
+  trim_blocks: true
+  lstrip_blocks: true
