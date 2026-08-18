@@ -1,6 +1,6 @@
 using StackExchange.Redis;
 
-namespace {{ PrefixName }}{{ SuffixName }}.Resources;
+namespace {{ ProjectName }}.Resources;
 
 public static class CacheExtensions
 {
